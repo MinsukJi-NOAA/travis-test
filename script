@@ -1,0 +1,10 @@
+#!/bin/bash
+
+mkdir -p build
+cd build
+cmake ..
+cmake --build .
+pwd
+ls -l
+./summation
+diff summation.txt ../expected_result.txt
