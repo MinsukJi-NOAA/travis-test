@@ -20,8 +20,8 @@ vector<int> sum(vector<int>& a1, vector<int>& a2) {
 }
 
 int main() {
-  vector<int> a1 = { {0,3,4,0} };
-  vector<int> a2 = { {5,2,1,5} };
+  vector<int> a1 = { {3,0,4,5} };
+  vector<int> a2 = { {2,5,1,0} };
 
   vector<int> output = sum(a1, a2);
   for (auto el: output) {
