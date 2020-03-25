@@ -1,4 +1,4 @@
-FROM centos7-gcc8:base
+FROM minsukjinoaa/centos7-gcc8:base
 
 RUN useradd -ms /bin/bash tester
 WORKDIR /home/tester
