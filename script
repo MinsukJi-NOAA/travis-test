@@ -6,5 +6,6 @@ cmake ..
 cmake --build .
 pwd
 ls -l
+lscpu
 ./summation
 diff summation.txt ../expected_result.txt
